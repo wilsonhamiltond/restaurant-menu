@@ -19,8 +19,6 @@ function Menu({ lng }) {
       { name: 'Cócteles', items: cocktailsES, lng: 'es' },
       { name: 'Drinks', items: drinksEN, lng: 'en' },
       { name: 'Bebidas', items: drinksES, lng: 'es' },
-      { name: 'Meals', items: mealsEN, lng: 'en' },
-      { name: 'Comidas', items: mealsES, lng: 'es' },
     ].filter((section) => section.lng === language);
     setSections(sectionList);
   }, [lng]);

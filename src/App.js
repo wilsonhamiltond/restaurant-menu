@@ -17,9 +17,9 @@ function App() {
             <Link to='/' className='navbar-brand text-success d-flex align-items-center'>
               <FontAwesomeIcon icon={faUtensils} size='xl' />
               <span className='ms-3 lh-1 fw-semibold'>
-                TropiBCados
+                El Central
                 <br></br>
-                Restaurant
+                Bar
               </span>
             </Link>
           </Navbar.Brand>

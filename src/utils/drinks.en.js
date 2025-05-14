@@ -7,40 +7,51 @@ import WhaterSoda from './images/drinks/whater-soda.png';
 
 const drinksEN = [
     {
-        name: 'Beer (Presidente, Bohemia)',
-        description: 'A refreshing Dominican beer.',
-        price: 'RD$200',
+        name: 'Beer small (Presidente, Bohemia, One)',
+        description: 'dominican beer.',
+        price: 'RD$175',
+        image: Beer,
+    },
+    {
+        name: 'Beer big (Presidente, Bohemia, One)',
+        description: 'dominican beer.',
+        price: 'RD$250',
         image: Beer,
     },
     {
         name: 'Whater',
-        description: 'A refreshing drink made with water.',
+        description: 'Una bebida refrescante hecha con agua.',
         price: 'RD$50',
         image: Water,
     },
     {
         name: 'Whater with soda',
-        description: 'A fizzy drink made with carbonated water and flavoring.',
+        description: 'Una bebida gaseosa hecha con agua carbonatada y saborizantes.',
         price: 'RD$100',
         image: WhaterSoda,
     },
     {
-        name: 'Sodea (Coca-Cola, Sprite)',
-        description: 'A refreshing soft drink.',
-        price: 'RD$500',
+        name: 'Coca-Cola, Sprite',
+        description: 'a refreshing soda drink.',
+        price: 'RD$50',
         image: Soda,
     },
     {
         name: 'Red Bull',
-        description: 'A popular energy drink.',
-        price: 'RD$200',
+        description: 'a popular energy drink.',
+        price: 'RD$150',
         image: RedBull,
     },
     {
         name: 'Clamato',
-        description: 'A tomato and clam juice drink.',
-        price: 'RD$200',
+        description: 'a drink made with tomato juice and clam.',
+        price: 'RD$150',
         image: Clamato,
+    },
+    {
+        name: 'Juice (Piña, Limón, china)',
+        description: 'a refreshing drink made with fruit juice.',
+        price: 'RD$150'
     }
 ];
 

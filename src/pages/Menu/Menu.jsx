@@ -4,10 +4,10 @@ import { Card, CardBody, CardText, CardTitle } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import cocktailsEN from '../../utils/cocktails.en';
 import cocktailsES from '../../utils/cocktails.es';
-import mealsEN from '../../utils/meals.en';
-import mealsES from '../../utils/meals.es';
 import drinksEN from '../../utils/drinks.en';
 import drinksES from '../../utils/drinks.es';
+import GlassesDrinksES from '../../utils/glasses.drinks.es';
+import GlassesDrinksEN from '../../utils/glasses.drinks.en';
 import { Link } from 'react-router-dom';
 
 function Menu({ lng }) {
@@ -17,7 +17,9 @@ function Menu({ lng }) {
     const sectionList = [
       { name: 'Cocktails', items: cocktailsEN, lng: 'en' },
       { name: 'Cócteles', items: cocktailsES, lng: 'es' },
-      { name: 'Drinks', items: drinksEN, lng: 'en' },
+      { name: 'Glasses', items: GlassesDrinksEN, lng: 'en' },
+      { name: 'Copas y Tragos', items: GlassesDrinksES, lng: 'es' },
+      { name: 'Drinks and Glasses', items: drinksEN, lng: 'en' },
       { name: 'Bebidas', items: drinksES, lng: 'es' },
     ].filter((section) => section.lng === language);
     setSections(sectionList);

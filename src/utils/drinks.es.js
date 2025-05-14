@@ -7,9 +7,15 @@ import WhaterSoda from './images/drinks/whater-soda.png';
 
 const drinksES = [
     {
-        name: 'Cerveza (Presidente, Bohemia)',
+        name: 'Cerveza Pequeña (Presidente, Bohemia, One)',
         description: 'Una refrescante cerveza dominicana.',
-        price: 'RD$150',
+        price: 'RD$175',
+        image: Beer,
+    },
+    {
+        name: 'Cerveza Grande (Presidente, Bohemia, One)',
+        description: 'Una refrescante cerveza dominicana.',
+        price: 'RD$250',
         image: Beer,
     },
     {
@@ -25,7 +31,7 @@ const drinksES = [
         image: WhaterSoda,
     },
     {
-        name: 'Soda (Coca-Cola, Sprite)',
+        name: 'Coca-Cola, Sprite',
         description: 'Una refrescante bebida gaseosa.',
         price: 'RD$50',
         image: Soda,
@@ -33,14 +39,19 @@ const drinksES = [
     {
         name: 'Red Bull',
         description: 'Una popular bebida energética.',
-        price: 'RD$200',
+        price: 'RD$150',
         image: RedBull,
     },
     {
         name: 'Clamato',
         description: 'Una bebida de jugo de tomate y almeja.',
-        price: 'RD$200',
+        price: 'RD$150',
         image: Clamato,
+    },
+    {
+        name: 'Jugos (Piña, Limón, china)',
+        description: 'Una bebida refrescante hecha con jugo de frutas.',
+        price: 'RD$150'
     }
 ];
 

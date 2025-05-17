@@ -9,7 +9,7 @@ const mealsEN = [
     {
         name: 'Hamburger With Bacon',
         description: 'Hamburger, bacon, cheese, lettuce, tomato',
-        price: 'RD$400',
+        price: 'RD$450',
         image: Hamburguesa,
     },
     {
